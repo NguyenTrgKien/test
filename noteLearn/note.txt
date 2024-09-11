@@ -1,0 +1,18 @@
+-- Đưa dự án đã có lên github lên github:
+    - git remote add origin https://github.com/NguyenTrgKien/test.git
+        git branch -M main
+        git push -u origin main
+-- Cài dặt thư viện Customize-cra:
+    - Vào trang customize-cra github và cài đặt npm i customize-cra react-app-rewired -D trong dự án.
+    - Ứng dụng của customize-cra:
+        + Là Thay đổi cấu hình webpack
+        + Sử dụng để cấu hình babel
+        + Xem cách cài dặt và sử dụng trong trang customize-cra github
+
+-- Babel-plugin-module-resolve: là một plugin Babel giúp tùy chỉnh các module Javascript
+    - Giúp định nghĩa các alias(bí danh) cho các đường dẫn module
+    - Giúp viết các đường dẫn import ngắn gọn hơn 
+    - Xem cách triển khai trong trang babel-plugin-module-resolve github
+-- File .babelrc là một file cấu hình cho Babel, trình biên dịch giúp chuyển đổi mã js es6, es7, typescript... thành mã tương thích
+    - Mặt định CRA có cấu hình sẵn babel nhưng nó không đọc, nếu muốn tùy chỉnh cấu hình Babel bằng cách sử dụng file .babelrc
+    - thì có thể sử dụng useBabelrc trong config-overrides.js
